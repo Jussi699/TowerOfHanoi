@@ -6,12 +6,15 @@ Interactive 3D Tower of Hanoi game with particles, music, camera controls, and a
 
 So far there is only one way to build a project
 
+You may get an error related to **"Intelligent Application Managemen"**, in order to still launch the program, you can:  
+``Windows Defender -> App & browser -> Intelligent Application Control service settings -> Disable`` This is strongly **NOT RECOMMENDED**
+
 №1 ---> Just run TowerOfHanoi.slnx and **Build** -> **F5**. If it doesn't work, go to #2.
    
 №2 ---> Visual Studio Method: NuGet
 2. **Install raylib via NuGet:**
-   - `Visual Studio → Tools → NuGet Package Manager → Manage NuGet Packages for Solution`
-   - `Browse → Search "raylib" → Install`
+1. `Visual Studio → Tools → NuGet Package Manager → Manage NuGet Packages for Solution`
+2. `Browse → Search "raylib" → Install`
 3. Go to Solution Properties -> C/C++ -> Additional Include Directories -> Paste `$(ProjectDir)src\modules;$(ProjectDir)src\components`
 4. **Build → Build Solution** (Ctrl+Shift+B)
 5. **F5** to run
