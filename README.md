@@ -74,13 +74,13 @@ Tower-Of-Hanoi/
 │   │   └── main.cpp
 │   │
 │   ├── font/
-│   │   └── Snowline/
+│   │   └── Snowline.otf
 │   │
 │   ├── music/
-│   │   └── Game/
+│   │   └── Game.mp3
 │   │
 │   └── picture/
-│       └── space/
+│       └── space.jpg
 │
 └── main.cpp
 ```
